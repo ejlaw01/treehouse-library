@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body,
+html {
+  background: #EDEFF0;
+}
+
+.header {
+  height: 50px;
+  background: #9c9;
+}
+
+.main {
+  position: relative;
+}
+
+.course:nth-child(odd) {
+  position: relative;
+  float: left;
+  width: 45%;
+  height: auto;
+  margin: 10px;
+  background: #FFF;
+  border-radius: 5px;
+}
+
+.course:nth-child(even) {
+  position: relative;
+  float: right;
+  width: 45%;
+  height: auto;
+  margin: 10px;
+  background: #FFF;
+  border-radius: 5px;
+}
+
+.course-header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px 5px 0 0;
+  color: #FFF;
+}
+
+.course-header h4 {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin: 0;
+  padding-right: 15px;
+  text-align: right;
+  width: 100%;
+}
+
+.course-header img {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin: 0;
+}
+
+.course-main {
+  padding: 10px;
+}
+
+.course-footer {
+  float: left;
+  display: inline-block;
+}
+
+.bubbled {
+  border: 2px solid lightgrey;
+  border-radius: 25px;
+  height: 50px;
+  width: auto;
+  margin: 0;
+  padding: 0 0 0 0;
+  vertical-align: middle;
+}
+
+/*h3.bubbled {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin: 10px;
+}*/
+
+.java {
+  color:  #2C9676;
+}
+
+.java-green {
+  background-color: #2C9676;
+}
+
+.python {
+  color: #F092B0;
+}
+
+.python-pink {
+  background-color: #F092B0;
+}
+
+.wordpress {
+  color: #838CC7;
+}
+
+.wordpress-purple {
+  background-color: #838CC7;
+}
